@@ -11,6 +11,55 @@
 
     height: 300px;
 }
+
+nav {
+  /* Box-model */
+  float: right;
+
+  /* Positioning */
+  margin-top: 25px;
+}
+
+nav li {
+  display: inline-block;
+
+  /* Box-model */
+  padding-left: 15px;
+
+  /* Positioning */
+  margin-left: 15px;
+
+  /* Typography */
+  line-height: 18px;
+
+  /* Visual */
+  border-left: 1px solid #efefef;
+}
+
+nav a {
+  /* Typography */
+  color: #999;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #666;
+}
+
+nav li:first-child {
+  /* Box-model */
+  padding-left: 0;
+
+  /* Positioning */
+  margin-left: 0;
+
+  /* Visual */
+  border-left: 0 none;
+}
+
+
+
+
 /*
 .gem-image {
 	width: 120px;
